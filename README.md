@@ -1,12 +1,9 @@
 # Documentção para envio XML
 
-###### Documentção para emvio de xml para Souza Roxo
+###### Documentção para envio de xml para Souza Roxo
 ###### 
 
 Para que possar fazer POST é necessario ID deve ser solicitado ti@souzaroxo.com.br
-
-###### Documentção para emvio de xml para Souza Roxo
-###### 
 
 Api via HTTP atarvaz método POST em GraphQL.
 Segue a baxio exemplo basico da estrutura do POST e algums exemplos de código 
