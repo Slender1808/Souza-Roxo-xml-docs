@@ -34,20 +34,20 @@ Content-Length: 226
 
 ## JavaScript (recomendado)
 
-[Exemplo de codigo em JavaScript](https://github.com/Slender1808/xml-docs/blob/main/doc.js)
+[Exemplo de código em JavaScript](https://github.com/Slender1808/xml-docs/blob/main/doc.js)
 
-[Exemplo de codigo em TypeScript](https://github.com/Slender1808/xml-docs/blob/main/doc.ts)
+[Exemplo de código em TypeScript](https://github.com/Slender1808/xml-docs/blob/main/doc.ts)
 
-[Exemplo de codigo em React](https://github.com/Slender1808/xml-docs/blob/main/doc.jsx)
+[Exemplo de código em React](https://github.com/Slender1808/xml-docs/blob/main/doc.jsx)
   
 ## PHP
 
-[Exemplo de codigo em PHP](https://github.com/Slender1808/xml-docs/blob/main/doc.php)
+[Exemplo de código em PHP](https://github.com/Slender1808/xml-docs/blob/main/doc.php)
 
 ## Shell Wget
 
-[Exemplo de codigo em Shell](https://github.com/Slender1808/xml-docs/blob/main/doc.sh)
+[Exemplo de código em Shell](https://github.com/Slender1808/xml-docs/blob/main/doc.sh)
    
 ## C - libcurl
  
- [Exemplo de codigo em C](https://github.com/Slender1808/xml-docs/blob/main/doc.cpp)
+ [Exemplo de código em C](https://github.com/Slender1808/xml-docs/blob/main/doc.cpp)
