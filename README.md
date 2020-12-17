@@ -34,6 +34,10 @@ Content-Length: 226
 
 ## JavaScript (recomendado)
 
+#### Diagrama exemplos 
+
+<img src="https://raw.githubusercontent.com/Slender1808/xml-docs/main/diagrama-fluxo-js.svg" style="width: auto; max-height: 100vh;">
+
 [Exemplo de código em JavaScript](https://github.com/Slender1808/xml-docs/blob/main/doc.js)
 
 [Exemplo de código em TypeScript](https://github.com/Slender1808/xml-docs/blob/main/doc.ts)
