@@ -8,7 +8,7 @@ Para que possar fazer POST é necessario ID deve ser solicitado ti@souzaroxo.com
 Api via HTTP através método POST em GraphQL.
 Segue a baxio exemplo basico da estrutura do POST e algums exemplos de código 
 
-###### QUERY
+###### QUERY Simples
 `
 mutation insertXml($xml: xml!,$user: uuid!) {
   insert_XML(objects: {xml: $xml, user: $user}) {
@@ -21,6 +21,31 @@ mutation insertXml($xml: xml!,$user: uuid!) {
 {
   "xml": "<xml>abc</xml>",
   "user": "86ab5b35-750e-459d-93a4-3a262478c117"
+}`
+
+***
+
+###### QUERY Uma lista XML
+`
+mutation insertXml($objects: [XML_insert_input!]!) {
+  insert_XML(objects: $objects) {
+    affected_rows
+  }
+}
+`
+
+###### GRAPHQL VARIABLES 
+`
+{
+    "objects": [
+        {
+            "xml": "<xml>abc1</xml>",
+            "user": "86ab5b35-750e-459d-93a4-3a262478c117"
+        },
+        { 
+            "xml": "<xml>abc2</xml>",
+            "user": "86ab5b35-750e-459d-93a4-3a262478c117" }
+    ]
 }`
 
 ## HTTP
@@ -36,7 +61,7 @@ Content-Length: 226
 
 #### Diagrama exemplos 
 
-<img src="https://raw.githubusercontent.com/Slender1808/xml-docs/main/diagrama-fluxo-js.svg">
+<img src="https://raw.githubusercontent.com/Slender1808/xml-docs/main/diagrama-fluxo-js.svg" style="width: auto; max-height: 100vh;">
 
 [Exemplo de código em JavaScript](https://github.com/Slender1808/xml-docs/blob/main/doc.js)
 
