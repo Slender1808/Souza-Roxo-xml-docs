@@ -5,7 +5,7 @@
 
 Para que possar fazer POST é necessario ID deve ser solicitado ti@souzaroxo.com.br
 
-Api via HTTP atarvaz método POST em GraphQL.
+Api via HTTP através método POST em GraphQL.
 Segue a baxio exemplo basico da estrutura do POST e algums exemplos de código 
 
 ###### QUERY
