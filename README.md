@@ -29,12 +29,6 @@ Content-Length: 226
 
 {"query":"mutation insertXml($xml: xml!,$user: uuid!) {\r\n  insert_XML(objects: {xml: $xml, user: $user}) {\r\n    affected_rows\r\n  }\r\n}","variables":{"xml":"<xml>abc</xml>","user":"86ab5b35-750e-459d-93a4-3a262478c117"}}
 
-var data = JSON.stringify({
-  query: "mutation insertXml($xml: xml!,$user: uuid!) {\r\n  insert_XML(objects: {xml: $xml, user: $user}) {\r\n    affected_rows\r\n  }\r\n}",
-  variables: {"xml":"<xml>abc</xml>","user":"86ab5b35-750e-459d-93a4-3a262478c117"}
-});
-
-
 
 # Exemplos a baixo
 ## JavaScript (recomendado)
