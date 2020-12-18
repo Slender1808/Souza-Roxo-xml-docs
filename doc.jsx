@@ -19,7 +19,7 @@ import { Mutation, ApolloProvider } from "react-apollo";
 const apolloClient = new ApolloClient({
   cache: new InMemoryCache(),
   link: new HttpLink({
-    uri: "undefined",
+    uri: "https://skw.souzaroxo.com.br/v1/graphql",
   }),
 });
 
