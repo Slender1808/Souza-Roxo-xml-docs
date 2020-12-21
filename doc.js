@@ -55,7 +55,7 @@ startExecuteInsertXml(xml, user);
 
 function fetchGraphQL(operationsDoc, operationName, variables) {
     return fetch(
-      "https://skw.souzaroxo.com.br/v1/graphql",
+      "https://skw.souzaroxo.com.br/hasura/v1/graphql",
       {
         method: "POST",
         body: JSON.stringify({
