@@ -31,7 +31,7 @@ echo $response;
 
 require_once 'HTTP/Request2.php';
 $request = new HTTP_Request2();
-$request->setUrl('https://skw.souzaroxo.com.br/v1/graphql');
+$request->setUrl('https://skw.souzaroxo.com.br/hasura/v1/graphql');
 $request->setMethod(HTTP_Request2::METHOD_POST);
 $request->setConfig(array(
   'follow_redirects' => TRUE
@@ -61,7 +61,7 @@ catch(HTTP_Request2_Exception $e) {
 
 $client = new http\Client;
 $request = new http\Client\Request;
-$request->setRequestUrl('https://skw.souzaroxo.com.br/v1/graphql');
+$request->setRequestUrl('https://skw.souzaroxo.com.br/hasura/v1/graphql');
 $request->setRequestMethod('POST');
 $body = new http\Message\Body;
 $body->append('{"query":"mutation insertXml($xml: xml!,$user: uuid!) {\\r\\n  insert_XML(objects: {xml: $xml, user: $user}) {\\r\\n    affected_rows\\r\\n  }\\r\\n}","variables":{"xml":"<xml>abc</xml>","user":"86ab5b35-750e-459d-93a4-3a262478c117"}}');
