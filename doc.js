@@ -4,7 +4,7 @@
 */
 async function fetchGraphQL(operationsDoc, operationName, variables) {
   const result = await fetch(
-    "https://skw.souzaroxo.com.br/hasura/v1/graphql",
+    "https://skw.souzaroxo.com.br:442/v1/graphql",
     {
       method: "POST",
       body: JSON.stringify({
@@ -55,7 +55,7 @@ startExecuteInsertXml(xml, user);
 
 function fetchGraphQL(operationsDoc, operationName, variables) {
     return fetch(
-      "https://skw.souzaroxo.com.br/hasura/v1/graphql",
+      "https://skw.souzaroxo.com.br:442/v1/graphql",
       {
         method: "POST",
         body: JSON.stringify({
