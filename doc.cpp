@@ -3,7 +3,7 @@ CURLcode res;
 curl = curl_easy_init();
 if(curl) {
   curl_easy_setopt(curl, CURLOPT_CUSTOMREQUEST, "POST");
-  curl_easy_setopt(curl, CURLOPT_URL, "https://skw.souzaroxo.com.br/v1/graphql");
+  curl_easy_setopt(curl, CURLOPT_URL, "https://skw.souzaroxo.com.br/hasura/v1/graphql");
   curl_easy_setopt(curl, CURLOPT_FOLLOWLOCATION, 1L);
   curl_easy_setopt(curl, CURLOPT_DEFAULT_PROTOCOL, "https");
   struct curl_slist *headers = NULL;
