@@ -7,7 +7,7 @@ function fetchGraphQL(
   operationName: string,
   variables: Record<string, any>
 ) {
-  return fetch("https://skw.souzaroxo.com.br/v1/graphql", {
+  return fetch("https://skw.souzaroxo.com.br:442/v1/graphql", {
     method: 'POST',
     body: JSON.stringify({
       query: operationsDoc,
