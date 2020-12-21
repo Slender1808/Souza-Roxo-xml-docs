@@ -9,7 +9,7 @@ Api via HTTP através método POST em GraphQL.
 Segue a baxio exemplo basico da estrutura do POST e algums exemplos de código 
 
 ###### QUERY Simples
-###### Host: https://skw.souzaroxo.com.br/v1/graphql
+###### Host: https://skw.souzaroxo.com.br/hasura/v1/graphql
 
 `
 mutation insertXml($xml: xml!,$user: uuid!) {
@@ -52,7 +52,7 @@ mutation insertXml($objects: [XML_insert_input!]!) {
 
 ## HTTP
 
-POST /v1/graphql HTTP/1.1
+POST /hasura/v1/graphql HTTP/1.1
 Host: skw.souzaroxo.com.br
 Content-Type: application/json
 Content-Length: 226
